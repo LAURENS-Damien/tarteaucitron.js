@@ -688,7 +688,7 @@ var tarteaucitron = {
                    html += '<ul id="tarteaucitronServices_mandatory">';
                    html += '<li class="tarteaucitronLine">';
                    html += '   <div class="tarteaucitronName">';
-                   html += '       <span class="tarteaucitronH3" role="heading" aria-level="4">' + tarteaucitron.lang.mandatoryText + '</span>';
+                   html += '       <span class="tarteaucitronH3">' + tarteaucitron.lang.mandatoryText + '</span>';
                    html += '       <span class="tarteaucitronListCookies" aria-hidden="true"></span><br/>';
                    html += '   </div>';
                    if (tarteaucitron.parameters.mandatoryCta == true) {
